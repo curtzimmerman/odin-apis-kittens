@@ -1,0 +1,7 @@
+<%= link_to kitten.name, kitten_path(kitten.id)  %>
+<%= link_to "Delete", kitten, method: :delete %>
+<ul>
+	<li>Age: <%= kitten.age %></li>
+	<li>Cuteness factor: <%= kitten.cuteness %></li>
+	<li>Softness factor: <%= kitten.softness %></li>
+</ul>

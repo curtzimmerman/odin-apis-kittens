@@ -1,0 +1,9 @@
+<h1>Kitten Index</h1>
+
+<ul>
+	<% @kittens.each do |kitten| %>
+		<%= render kitten %>
+	<% end %>
+</ul>
+
+<%= link_to "New", new_kitten_path %>

@@ -1,0 +1,5 @@
+<h1><%= @kitten.name.titleize %></h1>
+<%= render @kitten %>
+<%= link_to "Index", kittens_path%>
+<%= link_to "Edit", edit_kitten_path %>
+<%= link_to "Delete", @kitten, method: :delete %>
